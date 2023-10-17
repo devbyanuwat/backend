@@ -1,3 +1,5 @@
+Certainly, here's an enhanced README with additional details, including project dependencies and usage instructions:
+
 ---
 
 # Express.js Docker Container
@@ -10,6 +12,32 @@ Before you begin, ensure you have the following software installed on your syste
 
 - Docker: [Install Docker](https://docs.docker.com/get-docker/)
 - Node.js: [Install Node.js](https://nodejs.org/)
+
+## Project Details
+
+### Project Dependencies
+
+The Express.js project has the following dependencies, which are listed in the `package.json` file:
+
+- cors: ^2.8.5
+- express: ^4.18.2
+- mysql2: ^3.6.2
+- nodemon: ^3.0.1
+
+### Package.json
+
+Here is an overview of the key details in the `package.json` file:
+
+- **name:** backend
+- **version:** 1.0.0
+- **main:** index.js
+- **scripts:**
+  - **test:** Runs tests if available.
+  - **start:** Starts the application using `node index`.
+  - **nodemon:** Starts the application with nodemon for automatic code reloading during development.
+- **author:** (Your name or author information)
+- **license:** ISC (You can specify your project's license here)
+- **description:** (A brief description of your project)
 
 ## Getting Started
 
@@ -72,4 +100,4 @@ If you encounter any issues or have questions, please feel free to open an issue
 
 ---
 
-Replace `<repository-url>` with the actual URL of your project's repository. This README provides basic instructions for setting up and running your Express.js project in a Docker container. Depending on your specific project and its requirements, you may need to include more detailed information.
+Replace `<repository-url>` with the actual URL of your project's repository. This README provides detailed instructions and project information, making it easier for users and developers to set up and run your Express.js project in a Docker container.
