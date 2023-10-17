@@ -1,5 +1,3 @@
-Certainly, here's an enhanced README with additional details, including project dependencies and usage instructions:
-
 ---
 
 # Express.js Docker Container
